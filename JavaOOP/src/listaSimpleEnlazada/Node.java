@@ -4,12 +4,11 @@ public class Node {
 	
     public int value;
     public Node next;
-	
-
 	 public Node(int value) {
-			//su codigo aqui 
+		 
 	        this.value = value;
 	        this.next = null;
+	        
 	    }
 	 
 	 //GETTER Y SETTERS
@@ -27,7 +26,7 @@ public class Node {
 
 	    public void setNext(Node next) {
 	        this.next = next;
-	    }   
+	    }
 	 
 	 
 

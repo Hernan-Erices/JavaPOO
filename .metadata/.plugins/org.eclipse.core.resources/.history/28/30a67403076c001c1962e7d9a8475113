@@ -1,0 +1,12 @@
+package maestroDeObjetos2;
+
+public class ClaseNinja extends Human {
+	
+	
+	
+	//METODO ROBAR
+	
+	//METODO ESCAPAR
+	
+
+}

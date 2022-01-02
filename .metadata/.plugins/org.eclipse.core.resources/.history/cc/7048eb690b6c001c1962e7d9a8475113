@@ -1,0 +1,29 @@
+package maestroDeObjetos2;
+
+public class ClaseNinja extends Human {
+	
+	public ClaseNinja() {
+		strength = 3; // fuerza
+		stealth = 10; // sigilo
+		intelligence = 3; //inteligencia
+		health = 100; // Salud
+	}
+	
+	
+	
+	//METODO ROBAR
+	public void steal(){
+		
+		int steal = stealth;
+		
+		
+	}
+	
+	//METODO ESCAPAR
+	public void runAway() {
+		
+		int runAway=health-10;
+		
+	}
+
+}

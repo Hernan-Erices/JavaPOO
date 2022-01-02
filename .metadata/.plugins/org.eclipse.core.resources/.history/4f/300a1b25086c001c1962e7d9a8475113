@@ -1,0 +1,17 @@
+package maestroDeObjetos2;
+
+public class ClaseSamurai extends Human {
+	
+	//METODO GOLPE MORTAL
+	public void deathBlow() {
+		
+	}
+	
+	//METODO MEDITAR
+	public void meditate() {
+		
+	}
+	
+	
+
+}

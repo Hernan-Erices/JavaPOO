@@ -1,0 +1,10 @@
+package maestroDeObjetos2;
+
+public class ClaseSamurai extends Human {
+	
+	//METODO GOLPE MORTAL
+	
+	
+	
+
+}

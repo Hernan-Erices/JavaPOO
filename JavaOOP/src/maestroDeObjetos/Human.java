@@ -38,22 +38,21 @@ public class Human{
 		return health;
 	}
 	
-	
 	//Agregar el método attack(Human) y reducir el atributo health del humano atacado por los puntos de strength del humano atacante.
-	
-	//METODO attack
 	
 	public void attack() {
 		
+		int HumanAtacado = health ;
+		int HumanAtacante = strength;
+		
+		if(strength == 100) {
+			System.out.println("No te queda vida, Has muerto");
+		}else {
+			HumanAtacado = health - HumanAtacante;
+			System.out.println("Tu salud actual al ser atacado es de: " + HumanAtacado + " puntos de salud" );
+		}
+		
+		//CODIGO AQUI
+
+			}
 	}
-
-
-	
-	
-	
-	
-	
-	
-	
-
-}
