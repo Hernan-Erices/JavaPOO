@@ -1,0 +1,5 @@
+package maestroDeObjetos;
+
+public class claseWizard extends Human {
+
+}

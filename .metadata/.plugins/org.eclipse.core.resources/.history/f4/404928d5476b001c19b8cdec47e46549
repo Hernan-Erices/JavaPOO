@@ -1,0 +1,15 @@
+package maestroDeObjetos;
+
+public class Human extends HumanTest {
+	
+	//SELECIONAR CLASES (WIzard, Ninja, Samurai)
+
+	
+	//PROPIEDADES (strength, intelligence, stealth y health) con valor predeterminado de 3
+	
+	
+	
+	
+	
+
+}
