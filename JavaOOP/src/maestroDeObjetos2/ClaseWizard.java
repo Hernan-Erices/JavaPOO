@@ -26,9 +26,6 @@ public class ClaseWizard extends Human {
 		
 		int fireBall = 3*intelligence;
 		
-		int VidaVictima = victima.health;
-		int VidaVictimaa = health;
-		
 		victima.health = fireBall - victima.health;
 		
 		System.out.println("La victima es " + victima + " y su salud se redujo a " + victima.health + " puntos de salud");

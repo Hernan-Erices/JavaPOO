@@ -9,8 +9,6 @@ public class ClaseNinja extends Human {
 	//METODO ROBAR
 	public void steal(Human victima){
 		
-		int VidaVictima = victima.health;
-		int VidaVictimaa = health;
 		
 		int steal = stealth;
 		health = steal + victima.health;

@@ -10,15 +10,11 @@ public class ClaseSamurai extends Human {
 	//METODO GOLPE MORTAL
 	public void deathBlow(Human victima) {
 		
-		int VidaVictima = victima.health;
-		int VidaVictimaa = health;
 		health = health/2;		
-		//victima.health = 0;
+		victima.health = 0;
 		
 		System.out.println("tu victima fue " + victima + " y fue asesinado. \n" +"Salud actual: " + health);
-		
-		
-
+		System.out.println("la salud de la victima es:" + victima.health);
 		
 	}
 	
