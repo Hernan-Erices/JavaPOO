@@ -13,31 +13,4 @@ public class Human{
 		intelligence = 3;
 		health = 100;
 	}
-	
-	
-	//GETTERS
-	
-	public int getStrength() {
-		return strength;
-	}
-	
-	public int getStealth() {
-		return stealth;
-	}
-	
-	public int GetIntelligence() {
-		return intelligence;
-	}
-	
-	public int GetHealth() {
-		return health;
-	}
-	
-	
-	public void attack() {
-		
-		ClaseNinja Ninja = new ClaseNinja();
-		Ninja.steal();
-
-			}
 	}

@@ -19,25 +19,6 @@ public class Human{
 		health= 100;
 	}
 	
-	
-	//GETTERS
-	
-	public int getStrength() {
-		return strength;
-	}
-	
-	public int getStealth() {
-		return stealth;
-	}
-	
-	public int GetIntelligence() {
-		return intelligence;
-	}
-	
-	public int GetHealth() {
-		return health;
-	}
-	
 	//Agregar el método attack(Human) y reducir el atributo health del humano atacado por los puntos de strength del humano atacante.
 	
 	public void attack() {
@@ -53,6 +34,5 @@ public class Human{
 		}
 		
 		//CODIGO AQUI
-
 			}
 	}

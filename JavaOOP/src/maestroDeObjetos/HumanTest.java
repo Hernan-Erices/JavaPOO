@@ -6,8 +6,5 @@ public class HumanTest{
 		
 		maestroDeObjetos.Human Human = new Human();
 		Human.attack();
-		
-
 	}
-
 }

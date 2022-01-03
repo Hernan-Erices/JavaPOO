@@ -1,7 +1,0 @@
-package maestroDeObjetos2;
-
-public class ClaseWizard extends Human {
-	
-	
-
-}
