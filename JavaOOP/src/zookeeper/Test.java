@@ -1,15 +1,15 @@
 package zookeeper;
 
-public class GorillaTest {
+public class Test {
 
 	public static void main(String[] args) {
 	//GORILLA
 	System.out.println("GORILLA");
 	Gorilla gor = new Gorilla();
 	
-	gor.throwSomething(5);
-	gor.eatBananas(1);
-	gor.climb(11);	
+	gor.throwSomething(10);
+	gor.eatBananas(3);
+	gor.climb(2);	
 	
 	//Mammal energy = new Mammal();
 	//energy.desiplayEnergy();
@@ -19,8 +19,9 @@ public class GorillaTest {
 	//BAT
 	System.out.println("BAT");
 	Bat bat = new Bat();
-	bat.attackTown(2);
-	bat.eatHumans(2);
-	bat.fly(2);
+	bat.attackTown(4);
+	bat.eatHumans(3);
+	bat.fly(1);
 	}
+
 }

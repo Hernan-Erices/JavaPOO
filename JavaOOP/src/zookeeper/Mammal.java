@@ -2,7 +2,7 @@ package zookeeper;
 
 public class Mammal{
 	
-	int nivelEnergia = 100;
+	protected int nivelEnergia = 100;
 	protected int EnergyLevelBat = 300;
 	//int energiaActualTotal = 1;
 	

@@ -3,7 +3,7 @@ package maestroDeObjetos2;
 public class ClaseNinja extends Human {
 	
 	public ClaseNinja() {
-		stealth = 10; // sigilo
+		stealth = 10;
 	}
 	
 	//METODO ROBAR
@@ -15,11 +15,15 @@ public class ClaseNinja extends Human {
 		victima.health = victima.health - stealth;
 		System.out.println("La salud de la victima " + victima + " se redujo a: " + victima.health);
 		
-		if(health>100) {
-			System.out.println("No puedes tener mas de 100 puntos de salud");
-		}else {
-			System.out.println(health);
-		}	
+		
+		
+		System.out.println("Tu salud actual es de:" + health);
+		
+		//if(health>100) {
+		//	System.out.println("No puedes tener mas de 100 puntos de salud");
+		//}else {
+		//	System.out.println(health);
+		//}	
 	}
 	
 	//METODO ESCAPAR

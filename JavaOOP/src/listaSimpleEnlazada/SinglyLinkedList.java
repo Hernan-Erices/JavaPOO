@@ -10,31 +10,25 @@ public class SinglyLinkedList {
     	this.head=null;
     }
     
-    
-    
     //METODO REMOVE
 	public void remove() {
-
 		Node remove = head;
             remove.next = remove.getNext();
         Node head = remove.getNext();
         remove.setNext(head.getNext());
-
 	}
     
-	
 	//METODO MOSTRAR LISTA EN EL MISMO ORDEN QUE FUE CREADO
 	public void printValues() {
 		
         System.out.print("");
-    	Node auxNode = head;
-        while(auxNode != null){
-        	System.out.print(auxNode.getValue() + " / ");
-        	auxNode = auxNode.getNext();
+    	Node NodeA = head;
+        while(NodeA != null){
+        	System.out.print(NodeA.getValue() + " - ");
+        	NodeA = NodeA.getNext();
         }
 	}
-   
-	
+
 	//METODO AGREGAR NODE
     public void add(int value) {
 
